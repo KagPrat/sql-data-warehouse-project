@@ -1,7 +1,3 @@
-Here’s a rephrased version of your **Gold Layer Data Catalog** documentation with the same structure and detail, but more natural and refined language:
-
----
-
 # Gold Layer Data Catalog
 
 ## Overview
