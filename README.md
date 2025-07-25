@@ -36,3 +36,14 @@ This project is licensed under the [MIT License](LICENSE). You are free to use, 
 ## 👨‍🎓 About Me
 
 Hello! I’m Pratik Yallapragada, a recent graduate passionate about launching a career in data engineering. I’m now certified in AWS and plan to pursue additional certifications across other cloud platforms to strengthen my skill set. I created this project to gain hands-on experience and showcase my capabilities. Huge thanks to Data with Baraa for sparking the inspiration to begin this journey.
+
+Let's get in touch!
+
+<p>
+  <a href="https://www.linkedin.com/in/pratik-yallapragada/" rel="nofollow noreferrer">
+    <img src="https://i.sstatic.net/gVE0j.png" alt="linkedin"> LinkedIn
+  </a> &nbsp; 
+  <a href="https://github.com/KagPrat" rel="nofollow noreferrer">
+    <img src="https://i.sstatic.net/tskMh.png" alt="github"> Github
+  </a>
+</p>
