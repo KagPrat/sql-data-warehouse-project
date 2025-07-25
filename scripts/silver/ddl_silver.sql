@@ -8,7 +8,7 @@ Script Purpose:
 
   Run this script if you decide to redefine the DDL structure 
   of the 'silver' tables.
-  ===================================================================
+===================================================================
 */
 IF OBJECT_ID ('silver.crm_cust_info', 'U') IS NOT NULL
 	DROP TABLE silver.crm_cust_info;
