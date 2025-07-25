@@ -13,7 +13,7 @@ Scripts Purpose:
   - Data consistency between related fields.
 
 Usage Example:
-  - Run through these checks after loading data into 'silver' layer.
+  - Run through these checks after loading data into 'bronze' layer.
   - Investigate and resolve any discrepencies found during the checks.
 =======================================================================
 */
