@@ -39,11 +39,4 @@ Hello! I’m Pratik Yallapragada, a recent graduate passionate about launching a
 
 Let's get in touch!
 
-<p>
-  <a href="https://www.linkedin.com/in/pratik-yallapragada/" rel="nofollow noreferrer">
-    <img src="https://i.sstatic.net/gVE0j.png" alt="linkedin"> LinkedIn
-  </a> &nbsp; 
-  <a href="https://github.com/KagPrat" rel="nofollow noreferrer">
-    <img src="https://i.sstatic.net/tskMh.png" alt="github"> Github
-  </a>
-</p>
+[![Share on LinkedIn](https://img.shields.io/badge/-share%20on%20github-white?logo=linkedin&style=for-the-badge)](https://www.linkedin.com/feed/?shareActive=true&text=dd%0A)
