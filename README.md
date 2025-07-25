@@ -39,4 +39,6 @@ Hello! I’m Pratik Yallapragada, a recent graduate passionate about launching a
 
 Let's get in touch!
 
-[![Github](https://img.shields.io/badge/-share%20on%20github-white?logo=github&style=for-the-badge)](https://github.com/KagPrat)
+[![LinkedIn](https://img.shields.io/badge/-share%20on%20linkedin-blue?logo=linkedin&style=for-the-badge)](https://www.linkedin.com/in/pratik-yallapragada/)
+
+[![Github](https://img.shields.io/badge/-share%20on%20github-gray?logo=github&style=for-the-badge)](https://github.com/KagPrat)
