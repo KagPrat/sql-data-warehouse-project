@@ -4,13 +4,14 @@ Quality Checks
 ======================================================================
 Scripts Purpose:
   This script performs numerous quality checks for data consistency, 
-  accuracy, and standardization across the 'gold' schema. It checks 
+  accuracy, and standardization across the 'gold' views. It checks 
   for:
-  - Null or duplicate primary keys.
-  - Foreign key integrity.
+  - Uniqueness of surrogate keys in dimension tables.
+  - Referential integrity between fact and dimension tables.
+  - Validation of relationships in the data model for analytical purposes.
 
 Usage Example:
-  - Run through these checks after loading data into 'gold' layer.
+  - Run through these checks after loading data into 'silver' layer.
   - Investigate and resolve any discrepancies found during the checks.
 =======================================================================
 */
