@@ -1,3 +1,23 @@
+/*
+======================================================================
+Quality Checks
+======================================================================
+Scripts Purpose:
+  This script performs numerous quality checks for data consistency, 
+  accuracy, and standardization across the 'gold' schema. It checks 
+  for:
+  - Null or duplicate primary keys.
+  - Foreign key integrity.
+
+Usage Example:
+  - Run through these checks after loading data into 'gold' layer.
+  - Investigate and resolve any discrepancies found during the checks.
+=======================================================================
+*/
+
+-- =======================================================================
+-- Checking gold.dim_customers
+-- =======================================================================
 -- Check for duplicate customer numbers
 -- Expectation: No results
 SELECT customer_number, COUNT(*)
@@ -6,9 +26,8 @@ GROUP BY customer_number
 HAVING COUNT(*) > 1
 
 
--- Check for data mistmatch and NULLs
--- Expectation: Data intergrated
-
+-- Check for data mismatch and NULLs
+-- Expectation: Data integrated
 SELECT DISTINCT
 	ci.cst_gndr,
 	ca.gen,
@@ -27,10 +46,11 @@ ORDER BY 1, 2
 -- Check Integrity
 SELECT * FROM gold.dim_customers
 
-
+-- =======================================================================
+-- Checking gold.dim_products
+-- =======================================================================
 -- Check for duplicate product numbers
 -- Expectation: No results
-
 SELECT product_number, COUNT(*)
 FROM gold.dim_products
 GROUP BY product_number
@@ -39,7 +59,9 @@ HAVING COUNT(*) > 1
 -- Check Integrity
 SELECT * FROM gold.dim_products
 
-
+-- =======================================================================
+-- Checking gold.fact_sales
+-- =======================================================================
 -- Foreign Key Integrity
 -- Expectation: No results
 SELECT * 
